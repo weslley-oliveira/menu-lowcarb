@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@media (max-width: 640px) {                  
+    .content-to-hide {
+       display: none;
+    }
+ }
+
+ bg-logo{
+    background-image: url('/bg.jpg'); 
+ }
